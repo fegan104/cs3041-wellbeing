@@ -62,7 +62,7 @@ const svgToAscii = (svgId, asciiId) => {
   d3.select(asciiId).text(ascii);
 }
 
-fetch("/data/tarantino.json")
+fetch("https://users.wpi.edu/~fegan/cs3041-d4u/data/tarantino.json")
   .then(res => res.json())
   .then(data => data.filter(x => x.type === "word"))
   .then(swears => swears.reduce((a, b) => {
