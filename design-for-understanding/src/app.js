@@ -56,13 +56,15 @@ const d3Render = (data) => {
 }
 
 const svgToAscii = (svgId, asciiId) => {
-  const canvas = new AsciiCanvas(width, height);
-  canvas.renderSvg(d3.select(svgId));
-  const ascii = canvas.render();
-  d3.select(asciiId).text(ascii);
+  const CANVAS = new AsciiCanvas(width, height);
+  CANVAS.renderSvg(d3.select(svgId));
+  const ASCII = CANVAS.render();
+  d3.select(asciiId).text(ASCII);
 }
 
-fetch("https://users.wpi.edu/~fegan/cs3041-d4u/data/tarantino.json")
+const DATA_URL = "https://users.wpi.edu/~fegan/cs3041-d4u/data/tarantino.json"
+
+fetch(DATA_URL)
   .then(res => res.json())
   .then(data => data.filter(x => x.type === "word"))
   .then(swears => swears.reduce((a, b) => {
