@@ -1,0 +1,186 @@
+{
+  "joy": [
+    {
+      "title": "Water",
+      "image": "https://hips.hearstapps.com/cosmouk.cdnds.net/15/30/1280x853/gallery-1437469948-glass-of-water.jpg",
+      "link": ""
+    },
+    {
+      "title": "Whiskey",
+      "image": "http://cdnbevmo.nrostores.com/media/wysiwyg/themes/PR/110117SECONDPush/SP_BB3_110117_576x251.jpg",
+      "link": "https://www.wikihow.com/Drink-Whiskey"
+    },
+    {
+      "title": "Tequila",
+      "image": "https://hips.hearstapps.com/esq.h-cdn.co/assets/17/27/1600x800/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg",
+      "link": "https://www.wikihow.com/Drink-Tequila"
+    },
+    {
+      "title": "Chocolate Milk",
+      "image": "https://d39ziaow49lrgk.cloudfront.net/wp-content/uploads/2018/03/SCHEMA-PHOTO-3-Ingredient-Chocolate-Milk-Instead.jpg",
+      "link": "https://www.wikihow.com/Make-Chocolate-Milk"
+    },
+    {
+      "title": "Mojito",
+      "image": "https://fthmb.tqn.com/SoTswmBSV9xR8VGtxhBcbWNL6d4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/mojito-5a8f339fba61770036ec61d8.jpg",
+      "link": "https://www.wikihow.com/Make-a-Mojito"
+    },
+    {
+      "title": "Martini",
+      "image": "https://images.food52.com/7jMWeESkus1iiD1JsvGJn6pWs04=/753x502/33b2dfca-6526-4000-afaa-f972120729bd--food52_10-31-12-4869.jpg",
+      "link": "https://www.wikihow.com/Make-Martinis"
+    },
+    {
+      "title": "Gin & Tonic",
+      "image": "http://cadryskitchen.com/wp-content/uploads/2016/07/gin-and-tonic-tray.jpg",
+      "link": "https://www.wikihow.com/Make-Gin-and-Tonic"
+    }
+  ],
+  "anger": [
+    {
+      "title": "Beer",
+      "image": "http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/british-beer-rising-prices-ft-blog0118.jpg",
+      "link": "https://www.wikihow.com/Drink-Beer"
+    },
+    {
+      "title": "Juice",
+      "image": "https://www.rd.com/wp-content/uploads/2017/10/the-surprising-reason-orange-juice-isnt-vegan-242885032-Africa-Studio-1024x683.jpg",
+      "link": "https://www.wikihow.com/Make-Orange-Juice"
+    }
+  ],
+  "sadness": [
+    {
+      "title": "Water",
+      "image": "https://hips.hearstapps.com/cosmouk.cdnds.net/15/30/1280x853/gallery-1437469948-glass-of-water.jpg",
+      "link": ""
+    },
+    {
+      "title": "Beer",
+      "image": "http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/british-beer-rising-prices-ft-blog0118.jpg",
+      "link": "https://www.wikihow.com/Drink-Beer"
+    },
+    {
+      "title": "Chocolate Milk",
+      "image": "https://d39ziaow49lrgk.cloudfront.net/wp-content/uploads/2018/03/SCHEMA-PHOTO-3-Ingredient-Chocolate-Milk-Instead.jpg",
+      "link": "https://www.wikihow.com/Make-Chocolate-Milk"
+    },
+    {
+      "title": "Red Wine",
+      "image": "https://static.vinepair.com/wp-content/uploads/2015/11/big-reds-header.jpg",
+      "link": "https://www.wikihow.com/Taste-Wine"
+    },
+    {
+      "title": "Soda",
+      "image": "https://pioneerwoman.files.wordpress.com/2015/09/homemade-cream-sodas-001.jpg",
+      "link": "https://www.wikihow.com/Make-Cream-Soda"
+    }
+  ],
+  "disgust": [
+    {
+      "title": "Water",
+      "image": "https://hips.hearstapps.com/cosmouk.cdnds.net/15/30/1280x853/gallery-1437469948-glass-of-water.jpg",
+      "link": ""
+    },
+    {
+      "title": "Tequila",
+      "image": "https://hips.hearstapps.com/esq.h-cdn.co/assets/17/27/1600x800/landscape-1499378346-stocksy-txp3628c38alaz100-medium-170322mod.jpg",
+      "link": "https://www.wikihow.com/Drink-Tequila"
+    },
+    {
+      "title": "Juice",
+      "image": "https://www.rd.com/wp-content/uploads/2017/10/the-surprising-reason-orange-juice-isnt-vegan-242885032-Africa-Studio-1024x683.jpg",
+      "link": "https://www.wikihow.com/Make-Orange-Juice"
+    },
+    {
+      "title": "Chocolate Milk",
+      "image": "https://d39ziaow49lrgk.cloudfront.net/wp-content/uploads/2018/03/SCHEMA-PHOTO-3-Ingredient-Chocolate-Milk-Instead.jpg",
+      "link": "https://www.wikihow.com/Make-Chocolate-Milk"
+    },
+    {
+      "title": "Beer",
+      "image": "http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/british-beer-rising-prices-ft-blog0118.jpg",
+      "link": "https://www.wikihow.com/Drink-Beer"
+    }
+  ],
+  "contempt": [
+    {
+      "title": "Water",
+      "image": "https://hips.hearstapps.com/cosmouk.cdnds.net/15/30/1280x853/gallery-1437469948-glass-of-water.jpg",
+      "link": ""
+    },
+    {
+      "title": "Smirnoff Ice",
+      "image": "https://duijuz32qudrm.cloudfront.net/EN-US/English/Smirnoff%20Ice%20Original/BackgroundImage/smirnoff-ice-original-824x559.jpg",
+      "link": "https://spoonuniversity.com/how-to/21-fun-easy-cocktails-you-can-make-using-smirnoff"
+    },
+    {
+      "title": "Irish Coffee",
+      "image": "https://www.nespresso.com/ncp/res/resized/w720/uploads/recipes/5b43c9b47218fff9342c0f4dfef660b62f0618a8.jpg",
+      "link": "https://www.wikihow.com/Make-Irish-Coffee"
+    },
+    {
+      "title": "White Wine",
+      "image": "https://drivito2.imgix.net/e3bd0e9f8948bbfe/709a963ac7d5/sauv-blanc-cropped.png",
+      "link": "https://www.wikihow.com/Choose-a-Sweet-White-Wine"
+    },
+    {
+      "title": "Mimosa",
+      "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/15/1600x800/landscape-1492134702-delish-tequila-sunrise-mimosas-1.jpg",
+      "link": "https://www.wikihow.com/Make-a-Mimosa-Cocktail"
+    },
+    {
+      "title": "White Russian",
+      "image": "https://cdn.liquor.com/wp-content/uploads/2017/12/20073204/white-russian-1200x628-social.jpg",
+      "link": "https://www.wikihow.com/Make-a-White-Russian"
+    }
+  ],
+  "fear": [
+    {
+      "title": "Water",
+      "image": "https://hips.hearstapps.com/cosmouk.cdnds.net/15/30/1280x853/gallery-1437469948-glass-of-water.jpg",
+      "link": ""
+    },
+    {
+      "title": "Beer",
+      "image": "http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/british-beer-rising-prices-ft-blog0118.jpg",
+      "link": "https://www.wikihow.com/Drink-Beer"
+    },
+    {
+      "title": "Chocolate Milk",
+      "image": "https://d39ziaow49lrgk.cloudfront.net/wp-content/uploads/2018/03/SCHEMA-PHOTO-3-Ingredient-Chocolate-Milk-Instead.jpg",
+      "link": "https://www.wikihow.com/Make-Chocolate-Milk"
+    },
+    {
+      "title": "Juice",
+      "image": "https://www.rd.com/wp-content/uploads/2017/10/the-surprising-reason-orange-juice-isnt-vegan-242885032-Africa-Studio-1024x683.jpg",
+      "link": "https://www.wikihow.com/Make-Orange-Juice"
+    }
+  ],
+  "surprise": [
+    {
+      "title": "Water",
+      "image": "https://hips.hearstapps.com/cosmouk.cdnds.net/15/30/1280x853/gallery-1437469948-glass-of-water.jpg",
+      "link": ""
+    },
+    {
+      "title": "Chocolate Milk",
+      "image": "https://d39ziaow49lrgk.cloudfront.net/wp-content/uploads/2018/03/SCHEMA-PHOTO-3-Ingredient-Chocolate-Milk-Instead.jpg",
+      "link": "https://www.wikihow.com/Make-Chocolate-Milk"
+    },
+    {
+      "title": "Juice",
+      "image": "https://www.rd.com/wp-content/uploads/2017/10/the-surprising-reason-orange-juice-isnt-vegan-242885032-Africa-Studio-1024x683.jpg",
+      "link": "https://www.wikihow.com/Make-Orange-Juice"
+    },
+    {
+      "title": "Milk",
+      "image": "https://atmedia.imgix.net/589dd2e644dfd7a46b4cbf4871afa2a782532280?w=720&h=480&fit=crop",
+      "link": "https://www.wikihow.com/Freeze-Milk"
+    },
+    {
+      "title": "Beer",
+      "image": "http://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/british-beer-rising-prices-ft-blog0118.jpg",
+      "link": "https://www.wikihow.com/Drink-Beer"
+    }
+  ]
+}

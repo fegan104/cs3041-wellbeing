@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      width: 40%;
+      border-radius: 5px;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+      border-radius: 5px 5px 0 0;
+    }
+
+    .container {
+      padding: 2px 16px;
+    }
+
+    .clip-circle {
+      clip-path: circle(240px at center);
+      /* OLD VALUE example: circle(245px, 140px, 50px); */
+      /* Yep, even the new clip-path has deprecated stuff. */
+    }
+  </style>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+  <script src="https://download.affectiva.com/js/3.2/affdex.js"></script>
+  <script type="module" src="index.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <div>
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 clip-circle" id="affdex_elements" style="width:480px;height:480px;"></div>
+      <div class="col-md-4">
+        <div style="height:5em;">
+          <strong>Suggestions:</strong>
+          <div id="results" style="word-wrap:break-word;"></div>
+        </div>
+        <div id="logs"></div>
+        <div class="card">
+          <img id="recipe-img" src="https://cdn.liquor.com/wp-content/uploads/2014/11/recipe-moscow-mule.jpg" style="width:100%">
+          <div class="container">
+            <h4 id="recipe-title">
+              <b>Moscow Mule</b>
+            </h4>
+            <ol id="recipe-steps">
+              <li>foo</li>
+              <li>bar</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

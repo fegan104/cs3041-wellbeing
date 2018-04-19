@@ -1,13 +1,11 @@
+import $ from 'jquery'
+
 // SDK Needs to create video and canvas nodes in the DOM in order to function
 // Here we are adding those nodes a predefined div.
 const divRoot = $("#affdex_elements")[0];
 const width = 640;
 const height = 480;
 const faceMode = affdex.FaceDetectorMode.LARGE_FACES;
-
-let lastPick = null
-let selectedLink = ""
-
 //Construct a CameraDetector and specify the image width / height and face detector mode.
 const detector = new affdex.CameraDetector(divRoot, width, height, faceMode);
 detector.detectAllEmotions();
@@ -19,25 +17,28 @@ detector.addEventListener("onInitializeSuccess", _ => {
 });
 
 const renderCard = async (emotion) => {
-  const recipeJson = await fetch("data/drinks.json")
-  const recipeData = await recipeJson.json()
+  if (emotion !== "joy") return
+  const recipeData = await fetch("data/recipes.json").then(r => r.json())
   //randomly pick a recipe for teh selected emotion
   const choices = recipeData[emotion] || []
   const recipe = choices[Math.floor(Math.random() * choices.length)]
-  //short circuit if it doesn't change
-  if (lastPick === emotion) return
-  lastPick = emotion
-  selectedLink = recipe.link
 
   $("#recipe-title").text(recipe.title)
-  $("#recipe-img").attr("src", recipe.image)
+  $("#recipe-img").attr("src", recipe.link)
+  $("#recipe-steps").html("")
+  $.each(recipe.steps, i => {
+    $("#recipe-steps").append(`<li> ${recipe.steps[i]} </li>`)
+  })
 }
 
-$("#recipe-open").click(() => window.open(selectedLink))
+const log = (node_name, msg) => {
+  $(node_name).append("<span>" + msg + "</span><br />")
+}
 
 //function executes when Start button is pushed.
 $('#start').click(() => {
   if (detector && !detector.isRunning) {
+    $("#logs").html("");
     detector.start();
   }
 })
@@ -66,7 +67,6 @@ detector.addEventListener("onImageResultsSuccess", (faces, image) => {
   if (faces.length > 0) {
 
     const faceEmos = faces[0].emotions
-    const valence = faceEmos.valence
     delete faceEmos.valence
     delete faceEmos.engagement
 
@@ -75,7 +75,7 @@ detector.addEventListener("onImageResultsSuccess", (faces, image) => {
       .reduce((x, y) => faceEmos[x] > faceEmos[y] ? x : y)
       .toLowerCase()
 
-    $('#results').append(`<span>${emotion}</span><br/>`)
+    log('#results', "Emotions: " + emotion);
     renderCard(emotion)
     drawFeaturePoints(image, faces[0].featurePoints);
   }
