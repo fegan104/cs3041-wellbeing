@@ -62,7 +62,7 @@ const svgToAscii = (svgId, asciiId) => {
   d3.select(asciiId).text(ASCII);
 }
 
-const DATA_URL = "https://users.wpi.edu/~fegan/cs3041-d4u/data/tarantino.json"
+const DATA_URL = "/data/tarantino.json"
 
 fetch(DATA_URL)
   .then(res => res.json())
